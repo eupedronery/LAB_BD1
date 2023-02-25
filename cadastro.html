@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <meta charset="ISO-8859-1">
+        <link rel="stylesheet" href="./css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro Exemplo HTML</title>
+        </head>
+    <body>
+        
+        <nav> id="menu">
+            <ul>
+                <li><a href="cadastro.html">Home</a></<li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+            </ul>
+
+            
+        </nav>
+        <!--
+        <div align="center">
+            <table class=".table_roud">
+                <thead>
+                    <tr>
+                        <th class="th_dash"><b>#ID<th><b>
+                        <th class="th_dash"><b>Nome<th><b> 
+                        <th class="th_dash"><b>Data de Nascimento<th><b>                
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="td_groove">1</td>
+                        <td class="td_groove">Fulano</td>
+                        <td class="td_groove" align="center">22/09/1970</td>
+                    </tr>
+                    <tr>
+                        <td class="td_groove">2</td>
+                        <td class="td_groove">1Beltrano</td>
+                        <td class="td_groove" align="center">13/07/1999</td>
+                    </tr>
+                    <tr>
+                        <td class="td_groove">3</td>
+                        <td class="td_groove">Ciclano</td>
+                        <td class="td_groove" align="center">06/12/1980</td>
+                    </tr>
+                </tbody>
+            </table>
+         </div>
+        -->
+        
+        <br />
+        <br />
+        
+        <div class="container" align="center">
+            <form action="http://www.leandrocolevati.com.br" method="post">
+                <p class="title"><b>Cadastro de Pessoas</b></p>            
+                <table>
+                <tr>
+                    <td>
+                        <input class="input_data_date" type="number" min="0" step="1" id="id" name="id" 
+                               placeholder="#ID" required="required">   
+                    </td>
+                </tr>  
+                <tr>    
+                    <td>
+                        <input class="input_data_date" type="text" id="nome" name="nome" 
+                                placeholder="Nome" required="required">   
+                    </td><!-- comment -->
+                </tr>                    
+                <tr>    
+                    <td>
+                        <input class="input_data_date" type="date" id="dataNasc" name="dataNasc" 
+                                placeholder="Data de Nascimento" required="required">   
+                    </td>
+                </tr><!-- comment -->    
+                <tr>
+                    <td>
+                        <input type="submit" id="enviar" name="enviar" value="Enviar">
+                    </td>
+                </tr>             
+            </table>   
+            </form>    
+        </div>    
+    </body>
+</html>
